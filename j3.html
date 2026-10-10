@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнє завдання JavaScript</title>
+</head>
+<body>
+
+    <h1>Домашнє завдання з JavaScript</h1>
+
+    <h2>Задача 1. Робота з рядками</h2>
+
+    <script>
+        // Створюємо частини фрази
+        let part1 = "Де є ";
+        let part2 = "життя, ";
+        let part3 = "там є ";
+        let part4 = "й ";
+        let part5 = "надія";
+
+        let phrase = part1 + part2 + part3 + part4 + part5;
+
+        document.write("<p>" + phrase + "</p>");
+    </script>
+
+
+    <h2>Задача 2. Арифметичні операції</h2>
+
+    <script>
+        // Сторони єгипетського трикутника
+        let a = 3;
+        let b = 4;
+        let c = 5;
+
+        let perimeter = a + b + c;
+        let area = (a * b) / 2;
+
+        document.write("<p>Сторони трикутника: " + a + ", " + b + ", " + c + "</p>");
+        document.write("<p>Периметр: " + perimeter + "</p>");
+        document.write("<p>Площа: " + area + "</p>");
+    </script>
+
+
+    <h2>Задача 3. Власний лінійний алгоритм</h2>
+
+    <script>
+        // Задача:
+        // Учень купив 3 зошити по 25 грн і 2 ручки по 18 грн.
+        // Необхідно визначити загальну вартість покупки.
+
+        let notebooks = 3;
+        let notebookPrice = 25;
+        let pens = 2;
+        let penPrice = 18;
+
+        let notebooksCost = notebooks * notebookPrice;
+        let pensCost = pens * penPrice;
+        let totalCost = notebooksCost + pensCost;
+
+        document.write("<p>Зошити: " + notebooks + " шт. по " + notebookPrice + " грн</p>");
+        document.write("<p>Ручки: " + pens + " шт. по " + penPrice + " грн</p>");
+        document.write("<p>Загальна вартість покупки: " + totalCost + " грн</p>");
+    </script>
+
+</body>
+</html>

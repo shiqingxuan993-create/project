@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мої роботи з JavaScript</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #eaf5ff, #f8f0ff);
+      color: #23324d;
+    }
+    header {
+      padding: 55px 20px 45px;
+      text-align: center;
+      background: #254b7a;
+      color: white;
+    }
+    header h1 { margin: 0 0 12px; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0; font-size: 1.1rem; }
+    main { max-width: 950px; margin: 35px auto; padding: 0 18px; }
+    .intro {
+      background: white; padding: 22px; border-radius: 16px;
+      box-shadow: 0 5px 18px #20305014; margin-bottom: 24px;
+    }
+    h2 { color: #254b7a; }
+    .works {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .work {
+      background: white; padding: 22px; border-radius: 16px;
+      border-top: 5px solid #4c8bd8;
+      box-shadow: 0 5px 18px #20305014;
+    }
+    .work h3 { margin-top: 0; }
+    .work p { min-height: 48px; line-height: 1.5; }
+    .work a {
+      display: inline-block; padding: 10px 15px; border-radius: 8px;
+      background: #315f99; color: white; text-decoration: none; font-weight: bold;
+    }
+    .work a:hover, .work a:focus { background: #1d3f69; text-decoration: underline; }
+    footer { text-align: center; padding: 22px; color: #52627a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мої роботи з JavaScript</h1>
+    <p>Навчальне портфоліо з інформатики</p>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Про цей сайт</h2>
+      <p>На цій сторінці зібрані мої навчальні роботи з HTML, CSS і JavaScript. Натисніть на назву роботи, щоб відкрити її.</p>
+    </section>
+    <section>
+      <h2>Виконані роботи</h2>
+      <div class="works">
+        <article class="work">
+          <h3>Робота 1. Знайомство з JavaScript</h3>
+          <p>Сторінка з оформленням CSS і повідомленнями alert().</p>
+          <a href="js1.html">Відкрити роботу 1</a>
+        </article>
+        <article class="work">
+          <h3>Робота 2. Змінні та виведення даних</h3>
+          <p>Виведення назви планети й імені користувача на сторінку.</p>
+          <a href="js2.html">Відкрити роботу 2</a>
+        </article>
+        <article class="work">
+          <h3>Робота 3. Обчислення в JavaScript</h3>
+          <p>Робота з рядками, обчислення периметра, площі та вартості покупки.</p>
+          <a href="j3.html">Відкрити роботу 3</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>Навчальне портфоліо · HTML · CSS · JavaScript</footer>
+</body>
+</html>

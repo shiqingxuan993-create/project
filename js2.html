@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <style>
+        .planet {
+            background-color: #dff6ff;
+            border: 3px solid #2196f3;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            color: #0d47a1;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .user {
+            background-color: #fff0f5;
+            border: 3px dashed #e91e63;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            color: #880e4f;
+            font-size: 22px;
+            text-align: center;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="planet" id="planet"></div>
+    <div class="user" id="user"></div>
+
+    <script>
+        let planetName = "Земля";
+        let userName = "Василь";
+
+        document.getElementById("planet").textContent = planetName;
+        document.getElementById("user").textContent = userName;
+    </script>
+
+</body>
+</html>
